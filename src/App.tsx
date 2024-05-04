@@ -36,7 +36,7 @@ export default function App() {
       <div className="max-w-lg mx-auto bg-slate-100 rounded-md p-5">
       <AddTodoForm onSubmit={addTodoForm}></AddTodoForm>
         <div className="space-y-2">
-          {todos.length === 0 ? "No tasks" :todos.map((todo) => (
+          {todos.length === 0 ? <p className="text-center text-sm text-gray-500">No tasks yet. Add new one above</p> :todos.map((todo) => (
            
             <TodoItem
               onDelete={deleteTodo}

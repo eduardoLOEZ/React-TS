@@ -12,8 +12,8 @@ export const dummyData: Todo[] = [
     completed: false,
   },
   {
-    id: 1,
+    id: 3,
     title: "do coding tasks 👨🏻‍💻",
-    completed: true,
+    completed: false,
   },
 ];
